@@ -1,0 +1,65 @@
+THIS IS MOST RECENT - WITH PROGRESS
+
+
+<!-- [UBC Engineering Physics Degree 2017 - 2023]({% link enph_index.md %}) -->
+
+<!-- [The Beginning - 2017W-1]({% link  _posts/enph_posts/2017W-1.md %}) -->
+
+Install commands:
+
+  133  sudo apt-get install ruby-full build-essential zlib1g-dev
+  134  nano .bashrc 
+  135  echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+  136  echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+  137  echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+  138  source ~/.bashrc
+
+  141  gem install jekyll blunder
+  142  ls
+  143  jekyll 
+  144  jekyll new jmwhite
+  145  cd ./jmwhite/
+  146  ls
+  147  bundle exec jekyll serve
+  148  bundle
+  149  ruby -v
+  150  gem -v
+  151  gcc -v
+  152  g++ -v
+  153  make -v
+  154  ruby -v
+
+Local development:
+
+    jekyll serve -l
+
+
+----------- 2022 09 04 reinstall:
+gem install bundler - not needed - no gem file 
+
+added Gemfile and Gemfile.lock from blank instance
+did:  bundle add webrick , to resolve error for: 
+bundle exec jekyll serve
+
+
+Links
+
+http://jekyllbootstrap.com/lessons/jekyll-introduction.html 
+https://www.section.io/engineering-education/build-a-jekyll-site/ 
+https://cloudcannon.com/community/jekyll-cheat-sheet/ 
+https://shopify.github.io/liquid/basics/introduction/
+
+solution:
+https://www.garron.me/en/blog/multi-blog-site-jekyll.html 
+
+Wayback downloader for eyqs
+https://github.com/hartator/wayback-machine-downloader
+
+Research:
+https://www.cs.ubc.ca/course-section/apsc-160-101-2017w
+
+Includes file explanation
+https://jekyllrb.com/docs/includes/
+
+Assets - may not be needed?
+https://jekyllrb.com/docs/step-by-step/07-assets/
