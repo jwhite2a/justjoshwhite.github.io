@@ -1,0 +1,9 @@
+url: "https://jmwhite.ca" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+title: "jmwhite" # the name of your site, e.g. ACME Corp.
+collections:
+  enph_posts:
+    output: true
+    permalink: /enph_posts/:name
+
+exclude: [CNAME, notes.txt, eyqs_archive]
